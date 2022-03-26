@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{DD8B96D0-E058-4726-BABC-182F0045C9CA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="App.xaml.cs">
+    <Files>
+      <File FileName="MainPage.xaml" Line="1" Column="1" />
+      <File FileName="App.xaml" Line="1" Column="1" />
+      <File FileName="MauiProgram.cs" Line="1" Column="1" />
+      <File FileName="Source Files/Repositories/UsersRepository.cs" Line="20" Column="46" />
+      <File FileName="Platforms/iOS/AppDelegate.cs" Line="2" Column="14" />
+      <File FileName="Source Files/Repositories/Models/UserEntity.cs" Line="8" Column="1" />
+      <File FileName="Platforms/iOS/Program.cs" Line="1" Column="1" />
+      <File FileName="App.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OOPProject" expanded="True">
+            <Node name="OOPProject" expanded="True">
+              <Node name="Platforms" expanded="True">
+                <Node name="iOS" expanded="True" />
+              </Node>
+              <Node name="Source Files" expanded="True">
+                <Node name="Repositories" expanded="True">
+                  <Node name="Models" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="App.xaml.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.OOPProject PreferredExecutionTarget="net6.0-maccatalyst" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

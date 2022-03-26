@@ -1,0 +1,597 @@
+{
+  "protocol_version" : "0.0.6",
+  "configuration" : {
+    "version" : "(6.0.3.0) (6.0.322.12309 @Commit: c24d9a9c91c5d04b7b4de71f1a9f33ac35e09663)",
+    "tlc" : "normal",
+    "sigsgev" : "normal",
+    "notifications" : "kqueue",
+    "architecture" : "amd64",
+    "disabled_features" : "",
+    "smallconfig" : "disabled",
+    "bigarrays" : "disabled",
+    "softdebug" : "enabled",
+    "interpreter" : "enabled",
+    "llvm_support" : "disabled",
+    "suspend" : "hybrid"
+  },
+  "execution_context" : {
+    "coop-enabled" : "false"
+ },
+  "memory" : {
+    "Resident Size" : "146395136",
+    "Virtual Size" : "36402569216",
+    "minor_gc_time" : "92316",
+    "major_gc_time" : "0",
+    "minor_gc_count" : "7",
+    "major_gc_count" : "0",
+    "major_gc_time_concurrent" : "0"
+ },
+  "threads" : [
+ {
+    "is_managed" : true,
+    "offset_free_hash" : "0x277c52da1",
+    "offset_rich_hash" : "0x2e769ff88f",
+    "crashed" : true,
+    "native_thread_id" : "0x104268600",
+    "thread_info_addr" : "0x7ff3eb00d400",
+    "thread_name" : "tid_103",
+    "ctx" : {
+      "IP" : "0x7ff81234b00e",
+      "SP" : "0x7ff7bca6ba58",
+      "BP" : "0x7ff7bca6ba80"
+  },
+    "managed_frames" : [
+  {
+      "is_managed" : "false",
+      "native_address" : "0x100008004",
+      "native_offset" : "0x00000"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "4232F35D-E91A-460E-9B09-BA0FF2D6A768",
+      "token" : "0x00000",
+      "native_offset" : "0x108",
+      "method_name" : "UIApplicationMain",
+      "filename" : "Microsoft.MacCatalyst.dll",
+      "sizeofimage" : "0x12c0000",
+      "timestamp" : "0xa63c7dda",
+      "il_offset" : "0x0007f"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "4232F35D-E91A-460E-9B09-BA0FF2D6A768",
+      "token" : "0x6010932",
+      "native_offset" : "0x108",
+      "method_name" : "Main",
+      "filename" : "Microsoft.MacCatalyst.dll",
+      "sizeofimage" : "0x12c0000",
+      "timestamp" : "0xa63c7dda",
+      "il_offset" : "0x00041"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "0E935F08-EEC2-44E3-A8D4-375BB1CBD94F",
+      "token" : "0x600000d",
+      "native_offset" : "0x108",
+      "method_name" : "Main",
+      "filename" : "OOPProject.dll",
+      "sizeofimage" : "0x8000",
+      "timestamp" : "0xd335a0b8",
+      "il_offset" : "0x00001"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "0E935F08-EEC2-44E3-A8D4-375BB1CBD94F",
+      "token" : "0x00000",
+      "native_offset" : "0x108",
+      "method_name" : "runtime_invoke_direct_void_string[]",
+      "filename" : "OOPProject.dll",
+      "sizeofimage" : "0x8000",
+      "timestamp" : "0xd335a0b8",
+      "il_offset" : "0x00030"
+   }
+,
+  {
+      "is_managed" : "false",
+      "native_address" : "0x100274280",
+      "native_offset" : "0x00000"
+   }
+
+  ],
+  "unmanaged_frames" : [
+ {
+    "is_managed" : "false",
+    "native_address" : "0x1001fdbe0",
+    "native_offset" : "0x00036",
+    "unmanaged_name" : "mono_summarize_unmanaged_stack"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10008f210",
+    "native_offset" : "0x00293",
+    "unmanaged_name" : "mono_threads_summarize_execute_internal"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10008f9f0",
+    "native_offset" : "0x000fb",
+    "unmanaged_name" : "mono_threads_summarize"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x100262fc0",
+    "native_offset" : "0x00373",
+    "unmanaged_name" : "mono_dump_native_crash_info"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x100202410",
+    "native_offset" : "0x0013e",
+    "unmanaged_name" : "mono_handle_native_crash"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x1002628a0",
+    "native_offset" : "0x000a2",
+    "unmanaged_name" : "sigabrt_signal_handler"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x100003de0",
+    "native_offset" : "0x0001d",
+    "unmanaged_name" : "_sigtramp"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x7ff700000400",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x100081ca9",
+    "native_offset" : "0x0007b",
+    "unmanaged_name" : "abort"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10000ff91",
+    "native_offset" : "0x000f1",
+    "unmanaged_name" : "abort_message"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x1000011bd",
+    "native_offset" : "0x00000",
+    "unmanaged_name" : "_ZL29demangling_unexpected_handlerv"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x100020da1",
+    "native_offset" : "0x00060",
+    "unmanaged_name" : "_ZL15_objc_terminatev"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10000f49f",
+    "native_offset" : "0x00008",
+    "unmanaged_name" : "_ZSt11__terminatePFvvE"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10000f420",
+    "native_offset" : "0x00038",
+    "unmanaged_name" : "_ZSt9terminatev"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10000330f",
+    "native_offset" : "0x0001c",
+    "unmanaged_name" : "_dispatch_client_callout"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x1000061e2",
+    "native_offset" : "0x000f1",
+    "unmanaged_name" : "_dispatch_block_invoke_direct"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x100006cbd",
+    "native_offset" : "0x0001e",
+    "unmanaged_name" : "__FBSSERIALQUEUE_IS_CALLING_OUT_TO_A_BLOCK__"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x1000558a5",
+    "native_offset" : "0x000b0",
+    "unmanaged_name" : "-[FBSSerialQueue _targetQueue_performNextIfPossible]"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x100006c90",
+    "native_offset" : "0x00013",
+    "unmanaged_name" : "-[FBSSerialQueue _performNextFromRunLoopSource]"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10007fada",
+    "native_offset" : "0x00011",
+    "unmanaged_name" : "__CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10007f99f",
+    "native_offset" : "0x000b4",
+    "unmanaged_name" : "__CFRunLoopDoSource0"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10007f6db",
+    "native_offset" : "0x000f2",
+    "unmanaged_name" : "__CFRunLoopDoSources0"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10007de6c",
+    "native_offset" : "0x0037c",
+    "unmanaged_name" : "__CFRunLoopRun"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10007d57a",
+    "native_offset" : "0x00232",
+    "unmanaged_name" : "CFRunLoopRunSpecific"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10002fbc2",
+    "native_offset" : "0x00124",
+    "unmanaged_name" : "RunCurrentEventLoopInMode"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10002f7f8",
+    "native_offset" : "0x00252",
+    "unmanaged_name" : "ReceiveNextEventCommon"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10002f79f",
+    "native_offset" : "0x00046",
+    "unmanaged_name" : "_BlockUntilNextEventMatchingListInModeWithFilter"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10003e22e",
+    "native_offset" : "0x0039f",
+    "unmanaged_name" : "_DPSNextEvent"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10003c718",
+    "native_offset" : "0x00572",
+    "unmanaged_name" : "-[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10002f0ef",
+    "native_offset" : "0x0024a",
+    "unmanaged_name" : "-[NSApplication run]"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x100002f86",
+    "native_offset" : "0x00331",
+    "unmanaged_name" : "NSApplicationMain"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x1002d591e",
+    "native_offset" : "0x00010",
+    "unmanaged_name" : "_NSApplicationMainWithInfoDictionary"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x1000041c8",
+    "native_offset" : "0x00586",
+    "unmanaged_name" : "UINSApplicationMain"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10000295b",
+    "native_offset" : "0x00090",
+    "unmanaged_name" : "UIApplicationMain"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x1002752d0",
+    "native_offset" : "0x000c2",
+    "unmanaged_name" : "do_icall"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x100274280",
+    "native_offset" : "0x000fd",
+    "unmanaged_name" : "do_icall_wrapper"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x1002659c0",
+    "native_offset" : "0x00b9a",
+    "unmanaged_name" : "interp_exec_method"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x1002646f0",
+    "native_offset" : "0x000ef",
+    "unmanaged_name" : "interp_runtime_invoke"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10015b640",
+    "native_offset" : "0x004d6",
+    "unmanaged_name" : "mono_jit_runtime_invoke"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x100076ff0",
+    "native_offset" : "0x00088",
+    "unmanaged_name" : "mono_runtime_invoke_checked"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10007dda0",
+    "native_offset" : "0x0006b",
+    "unmanaged_name" : "mono_runtime_exec_main_checked"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x1001bdd40",
+    "native_offset" : "0x00162",
+    "unmanaged_name" : "mono_jit_exec"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x100047a70",
+    "native_offset" : "0x00343",
+    "unmanaged_name" : "xamarin_main"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0xfffffffffcb6f000",
+    "native_offset" : "0x35561a4"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x1041ed51e",
+    "native_offset" : "0x00000"
+  }
+
+ ]
+},
+{
+  "is_managed" : false,
+  "offset_free_hash" : "0x0",
+  "offset_rich_hash" : "0xa00e89260",
+  "crashed" : false,
+  "native_thread_id" : "0x700001846000",
+  "thread_info_addr" : "0x7ff3ee008e00",
+  "thread_name" : "tid_4d03",
+  "ctx" : {
+    "IP" : "0x7ff81234b0aa",
+    "SP" : "0x700001845db8",
+    "BP" : "0x700001845e20"
+ },
+  "unmanaged_frames" : [
+ {
+    "is_managed" : "false",
+    "native_address" : "0x1001fdbe0",
+    "native_offset" : "0x00036",
+    "unmanaged_name" : "mono_summarize_unmanaged_stack"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10008f210",
+    "native_offset" : "0x00293",
+    "unmanaged_name" : "mono_threads_summarize_execute_internal"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10008f170",
+    "native_offset" : "0x00077",
+    "unmanaged_name" : "mono_threads_summarize_execute"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x100262530",
+    "native_offset" : "0x00070",
+    "unmanaged_name" : "sigterm_signal_handler"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x100003de0",
+    "native_offset" : "0x0001d",
+    "unmanaged_name" : "_sigtramp"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x1002ff480",
+    "native_offset" : "0x00308",
+    "unmanaged_name" : "ds_ipc_stream_factory_get_next_available_stream"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x1002fe1e0",
+    "native_offset" : "0x000e7",
+    "unmanaged_name" : "server_thread"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x1003015d0",
+    "native_offset" : "0x00024",
+    "unmanaged_name" : "ep_rt_thread_mono_start_func"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x100006464",
+    "native_offset" : "0x0007d",
+    "unmanaged_name" : "_pthread_start"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x100001f5c",
+    "native_offset" : "0x0000f",
+    "unmanaged_name" : "thread_start"
+  }
+
+ ]
+},
+{
+  "is_managed" : false,
+  "offset_free_hash" : "0x0",
+  "offset_rich_hash" : "0x9006aa910",
+  "crashed" : false,
+  "native_thread_id" : "0x700001a49000",
+  "thread_info_addr" : "0x7ff3eb01a200",
+  "thread_name" : "Finalizer",
+  "ctx" : {
+    "IP" : "0x7ff8123449b6",
+    "SP" : "0x700001a48eb8",
+    "BP" : "0x700001a48f00"
+ },
+  "unmanaged_frames" : [
+ {
+    "is_managed" : "false",
+    "native_address" : "0x1001fdbe0",
+    "native_offset" : "0x00036",
+    "unmanaged_name" : "mono_summarize_unmanaged_stack"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10008f210",
+    "native_offset" : "0x00293",
+    "unmanaged_name" : "mono_threads_summarize_execute_internal"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10008f170",
+    "native_offset" : "0x00077",
+    "unmanaged_name" : "mono_threads_summarize_execute"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x100262530",
+    "native_offset" : "0x00070",
+    "unmanaged_name" : "sigterm_signal_handler"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x100003de0",
+    "native_offset" : "0x0001d",
+    "unmanaged_name" : "_sigtramp"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x7ff3eb122e12",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x1000901a0",
+    "native_offset" : "0x00173",
+    "unmanaged_name" : "start_wrapper_internal"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x100090140",
+    "native_offset" : "0x0003e",
+    "unmanaged_name" : "start_wrapper"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x100006464",
+    "native_offset" : "0x0007d",
+    "unmanaged_name" : "_pthread_start"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x100001f5c",
+    "native_offset" : "0x0000f",
+    "unmanaged_name" : "thread_start"
+  }
+
+ ]
+}
+]
+}

@@ -1,4 +1,6 @@
-﻿namespace OOPProject;
+﻿using OOPProject.SourceFiles.Repositories;
+
+namespace OOPProject;
 
 public partial class App : Application
 {
@@ -7,5 +9,7 @@ public partial class App : Application
 		InitializeComponent();
 
 		MainPage = new MainPage();
+		UsersRepository repository = new UsersRepository();
+		repository.List();
 	}
 }

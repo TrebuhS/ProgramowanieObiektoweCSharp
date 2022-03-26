@@ -40,9 +40,6 @@
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
-		<MauiImage Update="Resources\Images\dotnet_bot.svg" BaseSize="168,208" />
-
-		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />
 
 		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
@@ -55,6 +52,24 @@
 		<PackageReference Include="Microsoft.Graphics.Win2D" Version="1.0.0.30" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+	  <PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.0.7" />
+	  <PackageReference Include="SQLitePCLRaw.core" Version="2.0.7" />
+	  <PackageReference Include="SQLitePCLRaw.provider.dynamic_cdecl" Version="2.0.7" />
+	  <PackageReference Include="SQLitePCLRaw.provider.sqlite3" Version="2.0.7" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Source Files\" />
+	  <None Remove="Source Files\Repositories\" />
+	  <None Remove="Source Files\Repositories\Models\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Source Files\" />
+	  <Folder Include="Source Files\Repositories\" />
+	  <Folder Include="Source Files\Repositories\Models\" />
+	</ItemGroup>
 	<PropertyGroup Condition="$(TargetFramework.Contains('-windows'))">
 		<OutputType>WinExe</OutputType>
 		<RuntimeIdentifier>win10-x64</RuntimeIdentifier>
